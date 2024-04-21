@@ -1,0 +1,19 @@
+<p>hello works!</p>
+<button (click)="addCount()"> Add {{count}}</button>
+<button (click)="resetCount()">Reset</button>
+
+<h1 *ngIf="isVisible">Segredo</h1>
+
+<ul>
+    <li *ngFor="let items of [1, 2, 3]">
+        Valor: {{items}}
+    </li>
+</ul>
+
+<div
+    [ngClass]="isRed ? 'red' : 'white'">
+    Vermelho?
+</div>
+
+<div
+    [ngStyle]="{'background-color': isRed ? 'red' : 'white' }"> Vermelho?</div>

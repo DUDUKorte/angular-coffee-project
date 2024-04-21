@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: semi-bold;
+
+    --primary-color: rgb(102, 71, 46);
+    --accent-color: rgb(235, 209, 190);
+    --secondary-color: rgb(141, 104, 78);
+    --shadow-color: #E8E8E8;
+}
+
+button.primary {
+    padding: 10px;
+    border: solid 1px var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+}
